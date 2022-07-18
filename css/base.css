@@ -1,0 +1,56 @@
+html{
+width: 100vw;
+}
+body {
+	width: 100vw;
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: normal;
+  background-color: #f3f2ef;
+  color: gray; 
+  display: flex;
+  flex-direction: column;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul, dl { 
+	margin-top: 0; 
+	margin-bottom: 1rem; }
+	
+a {
+	cursor: pointer;
+  text-decoration: none;
+  color:grey;
+  font-weight: bold;
+  background-color: transparent; 
+    -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;}
+  
+
+
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+.py-4 {
+  padding-top: 1.5rem !important; 
+  padding-bottom: 1.5rem !important; }
+
+.text-center {
+  text-align: center !important; }
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+ }
+ 

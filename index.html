@@ -1,0 +1,2424 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Style Sheets -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/posts.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>CV Tim Bastian</title>
+	</head>
+	<body>
+		<!-- Header Starts -->
+		<div class="header">
+			<!-- Left header with logo and search bar -->
+			<div class="header__left">
+				<a href="javascript:window.location.href=window.location.href"> <img src="images/logo.png" alt="" /> </a>
+				<div class="header__search">
+					<i class="material-icons"> search </i>
+					<input  id="searchbar" type="text" placeholder="Search..." />
+				</div>
+			</div>
+			<!-- Right header with selection modules -->
+			<div class="header__right">
+				<div class="headerOption">
+					<button class="dropbtn"><i class="material-icons headerOption__icon"> business_center </i>
+						<h3>Jobs</h3>
+					</button>
+					<div class="dropdown-content">
+						<input class="checkbox-header" type="checkbox" id="conning-check" name="conning" value="Conning" checked="checked">
+						<label for="conning-check"> Conning</label><br>
+
+						<input class="checkbox-header" type="checkbox" id="berenberg-check" name="berenberg" value="Berenberg" checked="checked">
+						<label for="berenberg-check"> Berenberg</label><br>
+					
+						<input class="checkbox-header" type="checkbox" id="pwc-check" name="pwc" value="PwC" checked="checked">
+						<label for="pwc-check"> PwC</label><br>
+					
+						<input class="checkbox-header" type="checkbox" id="bausch-check" name="bausch" value="Bausch">
+						<label for="bausch-check"> Bausch+Lomb</label><br>
+					
+						<input class="checkbox-header" type="checkbox" id="hands-check" name="hands" value="Hands">
+						<label for="hands-check"> Hands-On Work</label><br>
+					</div>
+				</div>
+				
+				<div class="headerOption">
+					<button class="dropbtn"><i class="material-icons headerOption__icon"> school </i>
+						<h3>Education</h3>
+					</button>
+					<div class="dropdown-content">
+						<input type="checkbox" class="checkbox-header" id="hult-check" name="hult" value="Hult" checked="checked">
+						<label for="hult-check"> Hult IBS</label><br>
+
+						<input type="checkbox" class="checkbox-header" id="tu-check" name="tu" value="TU" checked="checked">
+						<label for="tu-check"> TU Berlin</label><br>
+						
+						<input type="checkbox" class="checkbox-header" id="hu-check" name="hu" value="HU">
+						<label for="hu-check"> HU Berlin</label><br>
+						
+						<input type="checkbox" class="checkbox-header" id="afg-check" name="afg" value="AFG">
+						<label for="afg-check"> Anne-Frank Gymnasium</label><br>
+					</div>
+				</div>
+				
+				<div class="headerOption">
+					<button class="dropbtn"><i class="material-icons headerOption__icon"> manage_accounts </i>
+						<h3>Skills</h3>
+					</button>
+					<ul class="dropdown-content">
+						<li> Technical 
+							<ul>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="databases-check" name="databases" value="Databases">
+									<label for="databases-check">Databases</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="dataman-check" name="dataman" value="DataMan">
+									<label for="dataman-check">Data Management</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="dataopt-check" name="dataopt" value="DataOpt">
+									<label for="dataopt-check"> Data Optimization </label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="dataviz-check" name="dataviz" value="DataViz">
+									<label for="dataviz-check"> Data Visualization </label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="ml-check" name="ml" value="ML">
+									<label for="ml-check"> Machine Learning </label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="nlp-check" name="nlp" value="NLP">
+									<label for="nlp-check"> NLP </label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="webdesign-check" name="webdesign" value="WebDesign">
+									<label for="webdesign-check"> Web Design </label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="webscraping-check" name="webscraping" value="webscraping">
+									<label for="webscraping-check"> Web Scraping </label><br>
+								</li>
+							</ul>
+						</li>
+						<li> Mathematics 
+							<ul>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="calc-check" name="calc" value="Calc">
+									<label for="calc-check">Calculus</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="la-check" name="la" value="LA">
+									<label for="la-check">Linear Algebra</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="comp-check" name="comp" value="Comp">
+									<label for="comp-check">Math & Computer</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="stats-check" name="stats" value="Stats">
+									<label for="stats-check">Statisic & Probability</label><br>
+								</li>
+							</ul>
+						</li>
+						<li> Business 
+							<ul>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="entre-check" name="entre" value="Entre">
+									<label for="entre-check">Entrepreneurship</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="finance-check" name="finance" value="Finance">
+									<label for="finance-check">Finance</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="marketing-check" name="marketing" value="Marketing">
+									<label for="marketing-check">Marketing</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="trading-check" name="trading" value="Trading">
+									<label for="trading-check">Trading</label><br>
+								</li>
+							</ul>
+						</li>
+						<li> Others 
+							<ul>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="logic-check" name="logic" value="Logic">
+									<label for="logic-check">Logical Thinking</label><br>
+								</li>
+								<li>
+									<input type="checkbox" class="checkbox-header" id="sports-check" name="sports" value="Sports">
+									<label for="sports-check">Sports</label><br>
+								</li>
+							</ul>
+						
+						</li>
+					</ul>
+				</div>
+
+				<div class="headerOption">
+					<button class="dropbtn"><i class="material-icons headerOption__icon"> computer </i>
+						<h3>Software</h3>
+					</button>
+					<div class="dropdown-content">
+						<input type="checkbox" class="checkbox-header" id="alteryx-check" name="alteryx" value="Alteryx" >
+						<label for="alteryx-check"> Alteryx</label><br>
+
+						<input type="checkbox" class="checkbox-header" id="css-check" name="css" value="CSS">
+						<label for="css-check"> CSS</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="excel-check" name="excel" value="Excel">
+						<label for="excel-check"> Excel</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="html-check" name="html" value="HTML">
+						<label for="html-check"> HTML</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="java-check" name="java" value="Java" >
+						<label for="java-check"> JavaScript</label><br>
+
+						<input type="checkbox" class="checkbox-header" id="julia-check" name="julia" value="Julia">
+						<label for="julia-check"> Julia</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="latex-check" name="latex" value="Latex">
+						<label for="latex-check"> LateX</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="powerbi-check" name="powerbi" value="PowerBI">
+						<label for="powerbi-check"> Power BI</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="python-check" name="python" value="Python" >
+						<label for="python-check"> Python</label><br>
+						
+						<input type="checkbox" class="checkbox-header" id="rprog-check" name="rprog" value="R" >
+						<label for="rprog-check"> R</label><br>
+
+						<input type="checkbox" class="checkbox-header" id="qlik-check" name="qlik" value="Qlik">
+						<label for="qlik-check"> QlikView</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="sql-check" name="sql" value="SQL">
+						<label for="sql-check"> SQL</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="tableau-check" name="tableau" value="Tableau">
+						<label for="tableau-check"> Tableau</label><br>
+							
+						<input type="checkbox" class="checkbox-header" id="vba-check" name="vba" value="VBA">
+						<label for="vba-check"> VBA</label><br>
+					</div>
+				</div>
+				<div class="headerOption">
+					<button class="dropbtn" id="clearButton"><i class="material-icons headerOption__icon"> cleaning_services </i>
+						<h3>Clear</h3>
+					</button>
+				</div>
+				<div class="headerOption">
+					<img src="images/me.jpeg" alt="" />
+					<h3 id="pictureh3">Me</h3>
+					<ul class="dropdown-content header-me">
+						<li><a href="https://timlearns.com/" target="_blank"><i class="fa fa-globe" id="website-header"></i> <span> My Blog </span> </a></li>
+						<li><a href="https://www.linkedin.com/in/tim-bastian-606594203/" target="_blank"><i class="fa fa-linkedin" id="linkedin-header"></i> <span>LinkedIn</span></a></li>
+						<li><a href="https://github.com/TimBstn" target="_blank"><i class="fa fa-github" id="github-header" aria-hidden="true"></i><span>GitHub</span></a></li>
+						<li><a href="https://www.youtube.com/channel/UCwoNk-QxFZasZiCTOlQN72A" target="_blank"><i class="fa fa-youtube" id="youtube-header"></i> <span>YouTube</span></a></li>
+						<li><a href="https://www.instagram.com/tttimbstn/" target="_blank"><i class="fa fa-instagram" id="instagram-header"></i> <span>Instagram</span></a></li>
+						<li><a href="mailto: tim_bastian97@web.de"><i class="fa fa-at" id="email"></i><span>E-Mail</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Header Ends -->
+
+		<!-- Main Body Starts -->
+		<div class="body__main">
+	
+			<!-- Sidebar Starts -->
+			<div class="sidebar">
+				<div class="sidebar__top">
+					<img src="images/banner.png" alt="" />
+					<i> <img class="sidebar-avatar" src="images/me.jpeg" alt="" /> </i>
+					<h2>Tim Bastian</h2>
+					<h4><a href="mailto: tim_bastian97@web.de">tim_bastian97@web.de</a></h4>
+				</div>
+
+				<div class="sidebar__stats">
+					<div class="sidebar__stat">
+						<p>Who Viewed You</p>
+						<p class="sidebar__statNumber">1,634</p>
+					</div>
+					<div class="sidebar__stat">
+						<p>Views on post</p>
+						<p class="sidebar__statNumber">4,891</p>
+					</div>
+				</div>
+				<div class="sidebar__bottom">
+					<p>Recent</p>
+					<div class="sidebar__recentItem" id="project-button">
+						<span class="sidebar__hash" id>#</span>
+						<p>projects</p>
+					</div>
+					<div class="sidebar__recentItem" id="coding-button">
+						<span class="sidebar__hash">#</span>
+						<p>coding</p>
+					</div>
+					<div class="sidebar__recentItem" id="trading-button">
+						<span class="sidebar__hash">#</span>
+						<p>trading</p>
+					</div>
+					<div class="sidebar__recentItem" id="math-button">
+						<span class="sidebar__hash">#</span>
+						<p>math</p>
+					</div>
+					<div class="sidebar__recentItem" id="data-button">
+						<span class="sidebar__hash">#</span>
+						<p>data</p>
+					</div>
+				</div>
+			</div>
+			<!-- Sidebar Ends -->
+			
+
+			<!-- Feed Starts -->
+			<div class="feed">
+				<!-- begin timeline -->
+                <ul class="timeline">
+					<li class="post conning python dataviz database webscraping dataman sql" id="post-conning">
+							<div class="timeline-time">
+								<span class="date">Jun 2022 -</span>
+								<span class="time">Aug 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/conning.png" alt=""></span>
+									<span class="username">Conning - Financial Risk Analyst</span>
+									<span class="pull-right text-muted">10,282 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Hartford, Connecticut
+									</h4>
+									<p>
+										<ul>
+											<li class="conning python dataviz database webscraping dataman sql">
+												Processed automation using batch-files, python, web scraping (Selenium), and SQL-database to deal with huge text-file (>12GB), splitting into subsets and creating and saving pdf-files with charts using Plotly
+											</li>
+											<li class="conning dataman">
+												Used in-house actuarial software and Command-Line Prompts to predict future economic scenarios based on historical crises 
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">25 Shares</span>
+										<span class="stats-text">12 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">589</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects html java css webdesign" id="post-cv">
+							<div class="timeline-time">
+								<span class="date">Jun 2022 -</span>
+								<span class="time">Jul 2022 </span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/logo.png" alt=""></span>
+									<span class="username">Interactive CV</span>
+									<span class="pull-right text-muted">4,927 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Philadelphia, Pennsylvania
+									</h4>
+									<p>
+										<ul>
+											<li class="projects html java css webdesign">
+												Interactive CV allowing filtering of my steps in life using HTML, JavaScript and CSS
+											</li>
+											<li class="html java css webdesign projects">
+												<a href="#" target="_blank"> See CV here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">56 Shares</span>
+										<span class="stats-text">45 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">782</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post hult database dataman dataopt dataviz ml nlp webdesign stats entre finance marketing css excel html java python rprog sql tableau trading" id="post-hult">
+							<div class="timeline-time">
+								<span class="date">Sep 2021 -</span>
+								<span class="time">Aug 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/hult.png" alt=""></span>
+									<span class="username">Hult IBS - MSc. Business Analytics</span>
+									<span class="pull-right text-muted">19,592 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="hult database dataman dataopt dataviz ml nlp webdesign stats entre finance marketing css excel html java python rprog sql tableau">
+												Combined program of business knowledge and statistical analysis developing skills in machine learning, data management, and visualization, coding, and Natural Language Processing but also collaboration, teamwork, and leadership
+											</li>
+											<li class="hult">
+												GPA: 4.0 (Dean's List)
+											</li>
+											<li class="hult dataman finance trading">
+												Member of Hult Consulting Club, Hult Data Global Club, Hult Blockchain for Impact Club
+											</li>
+											<li class="stats excel">
+												<b> Data Analytics: </b>
+												<p class="subpoint">  Use of statistical and quantitative methods to better balance business risk, forecast scenarios and develop business decisions </p>
+												<p class="subpoint"> Utilization of sample sizing and hypothesis testing using Excel for better decision making by managers and entrepreneurs </p>
+											</li>
+											<li class="dataman sql database">
+												<b> Data Management & SQL: </b>
+												<p class="subpoint"> Overview of relational databases, methodologies for selecting and summarizing columns from database tables, use of basic comparison operators to combine multiple data criteria </p>
+												<p class="subpoint"> Manipulation of data using sorting, grouping, joining in SQL </p>
+											</li>
+											<li class="dataopt excel">
+												<b> Data Optimization </b>
+												<p class="subpoint"> Applying optimization algorithms including linear programming, advanced network optimization, integer programming to model problems in finance, marketing, and operations management </p>
+											</li>
+											<li class="dataman python">
+												<b> Data Science: Python </b>
+												<p class="subpoint"> Introduction to the principles and techniques of computer programming using Python with an emphasis on how it is utilized by analytics professionals including cleaning, exploring, and manipulating data using pandas and NumPy </p>
+											</li>
+											<li class="dataman rprog">
+												<b> Data Science: R </b>
+												<p class="subpoint"> Introduction to the principles and techniques of computer programming using R including manipulation of datasets, statistical testing, linear regression, and decision trees </p>
+											</li>
+											<li class="dataviz tableau excel">
+												<b> Data Visualization </b>
+												<p class="subpoint"> Quickly and unambiguously extracting key insights hidden in data using visualization techniques, data structures, color theory, and presentation structure in Tableau and Excel </p>
+											</li>
+											<li class="entre">
+												<b> Future Mindset & Challenge </b>
+												<p class="subpoint"> Designing future-forward business concepts to define new opportunities and turning these opportunities into learning and growth in the role of a product manager </p>
+											</li>
+											<li class="entre">
+												<b> Leadership: Teamwork and Collaboration </b>
+												<p class="subpoint"> Using team exercises, role plays and other activities to understand, apply and diagnose the competencies and skills needed professionally and personally to be an effective contributor to a team </p>
+											</li>
+											<li class="ml python">
+												<b> Machine Learning </b>
+												<p class="subpoint"> Core theory and application of classification techniques, feature selection, performance evaluation supervised and unsupervised learning (p.e. linear and logistic regression, kNN, decision trees, clustering) in python using sklearn </p>
+											</li>
+											<li class="nlp rprog">
+												<b> Text Analytics and Natural Language Processing (NLP)</b>
+												<p class="subpoint"> Importing, reviewing, manipulating, and summarizing text data using Term Document Matrix, text corpus, text clouds and frequency histograms in R </p>
+											</li>
+											<li class="webdesign html css java marketing">
+												<b> Web Application Development</b>
+												<p class="subpoint"> Designing and implementation of an effective website using HTML, CSS, and JavaScript  </p>
+											</li>
+											<li class="trading entre">
+												<b> Return Driven Strategy</b>
+												<p class="subpoint"> Gaining comprehensive view of business strategy, execution, performance, and value-creation </p>
+												<p class="subpoint"> <a href="https://timlearns.com/return-driven-strategy/" target="_blank"> Read More About it on my Blog</a> </p>
+											</li>
+											<li class="trading entre">
+												<b> Global Strategic Valuation </b>
+												<p class="subpoint"> Insights into fundamental investment process of institutional funds using databases, analyses, and real-world investment situations, especially looking at real Return on Assets and real Asset Growth </p>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">67 Shares</span>
+										<span class="stats-text">56 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">997</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects excel" id="post-youtubeExcel">
+							<div class="timeline-time">
+								<span class="date">May 2022 -</span>
+								<span class="time">Jul 2022 </span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/excel.svg" alt=""></span>
+									<span class="username">My Excel Online Guide</span>
+									<span class="pull-right text-muted">1,923 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="excel projects">
+												Full Guide from Beginner to Expert in Excel covering Formulars, Charts and Pivot Tables (German) 
+											</li>
+											<li class="excel projects">
+												<a href="https://www.youtube.com/playlist?list=PLDuyLSzM4EoZq2B7XZ9qLqXuDovBVJr1n" target="_blank"> See Playlist here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">56 Shares</span>
+										<span class="stats-text">45 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">782</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post entre projects" id="post-future">
+							<div class="timeline-time">
+								<span class="date">Mar 2022 -</span>
+								<span class="time">May 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/drone.jpg" alt=""></span>
+									<span class="username">GULGI - Drones in Hotel Industry</span>
+									<span class="pull-right text-muted">4,498 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="entre projects">
+												Designing a drone-driven hotel room inspector to solve the problem of underemployment and time management in the hotel industry
+											</li>
+											<li class="entre projects">
+												<a href="https://docs.google.com/presentation/d/1nLHfXOM869c67htMvbfXJz5dPTnrAZ_h/edit?usp=sharing&ouid=101199309673122904479&rtpof=true&sd=true" target="_blank"> See Presentation here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">24 Shares</span>
+										<span class="stats-text">16 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">459</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post dataopt ml trading projects entre dataopt tableau rprog excel" id="post-dataoptimization">
+							<div class="timeline-time">
+								<span class="date">Mar 2022 -</span>
+								<span class="time">Apr 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/dataopt.PNG" alt=""></span>
+									<span class="username">Eatosis - Optimal Investing Simulator</span>
+									<span class="pull-right text-muted">5,976 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="dataopt ml trading projects entre dataopt tableau rprog excel">
+												Using linear regression and integer optimization to find the optimal portfolio allocation of bonds to finance a start-up’s expenses for the next 5 year 
+											</li>
+											<li class="dataopt ml trading projects entre dataopt tableau rprog excel">
+												<a href="https://public.tableau.com/views/Data_Opt/Story1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"> See Tableau Dashboard here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">12 Shares</span>
+										<span class="stats-text">8 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">254</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects nlp dataviz rprog sports marketing" id="post-nba">
+							<div class="timeline-time">
+								<span class="date">Feb 2022 -</span>
+								<span class="time">Mar 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/nba.jpg" alt=""></span>
+									<span class="username">Nike Marketing Strategy - Tweet Analysis</span>
+									<span class="pull-right text-muted">3,149 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects nlp dataviz rprog sports marketing">
+												Analyzing Twitter tweets about the 2020 NBA season to gain insights for a Nike Advertisement campaign 
+											</li>
+											<li class="projects nlp dataviz rprog sports marketing">
+												<a href="https://github.com/TimBstn/NBA-NLP-case" target="_blank"> See Case on GitHub here </a>
+											</li>
+											<li class="projects nlp dataviz rprog sports marketing">
+												<a href="https://youtu.be/Ts-19Zxqw9E" target="_blank"> Watch case on YouTube</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">32 Shares</span>
+										<span class="stats-text">22 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">376</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects rprog dataman dataviz marketing" id="post-airfrance">
+							<div class="timeline-time">
+								<span class="date">Jan 2022 -</span>
+								<span class="time">Feb 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/airfrance.png" alt=""></span>
+									<span class="username">Air France - Online Marketing Strategy</span>
+									<span class="pull-right text-muted">4,394 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects rprog dataman dataviz marketing">
+												Data based analysis of an online marketing strategy for Air France and proposing of allocation of advertisement expenses (Harvard Business Case) 
+											</li>
+											<li class="projects rprog dataman dataviz marketing">
+												<a href="https://github.com/TimBstn/Air-France-Business-Case" target="_blank"> See Case on GitHub here </a>
+											</li>
+											<li class="projects rprog dataman dataviz marketing">
+												<a href="https://www.youtube.com/watch?v=YBX94WffV2E" target="_blank"> Watch case on YouTube</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">18 Shares</span>
+										<span class="stats-text">11 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">145</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects trading ml python dataviz" id="post-algotrading">
+							<div class="timeline-time">
+								<span class="date">Dec 2021 -</span>
+								<span class="time">Jan 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/algotrading.webp" alt=""></span>
+									<span class="username">Python for Algorithmic Trading</span>
+									<span class="pull-right text-muted">4,961 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects trading ml python dataviz">
+												Implementation of simple algorithmic trading strategies like mean reversion, simple moving averages, momentum, and regression in python
+											</li>
+											<li class="projects trading ml python dataviz">
+												Downloading data from yahoo finance and plotting data <a href="https://timlearns.com/candlestick-plotly/" target="_blank"> (Read more about that here)</a>
+											</li>
+											<li class="projects trading ml python dataviz">
+												<a href="https://github.com/TimBstn/Python-for-Algorithmic-Trading-From-Idea-to-Cloud-Deployment" target="_blank"> See Project on GitHub here</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">35 Shares</span>
+										<span class="stats-text">26 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">417</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects trading python dataviz webdesign" id="post-researchtrading">
+							<div class="timeline-time">
+								<span class="date">Nov 2021 -</span>
+								<span class="time">Jan 2022</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/algotrading.webp" alt=""></span>
+									<span class="username"> Research-Based Stock Trading Strategies</span>
+									<span class="pull-right text-muted">5,901 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects trading webdesign python dataviz">
+												Creation of financial database with KPI’s from balance sheets, income statements, and cash flow statements using 10-K annual reports handed in by companies to the SEC
+											</li>
+											<li class="projects trading webdesign python dataviz">
+												Algorithmic translation of seven trading strategies based on research papers
+											</li>
+											<li class="projects trading webdesign python dataviz">
+												Creation of long and short positions based on the strategy and brief overview of findings
+											</li>
+											<li class="projects trading webdesign python dataviz">
+												<a href="https://github.com/TimBstn/Fundamental-Trading-Strategies" target="_blank"> See Project on GitHub here</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">34 Shares</span>
+										<span class="stats-text">56 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">617</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects trading python dataviz webdesign" id="post-portfoliopt">
+							<div class="timeline-time">
+								<span class="date">Nov 2021 -</span>
+								<span class="time">Dec 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/algotrading.webp" alt=""></span>
+									<span class="username"> Portfolio Analyzer</span>
+									<span class="pull-right text-muted">9,018 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects trading webdesign python dataviz">
+												Analyzes a chosen stock portfolio of companies from NASDAQ 100 and DAX 40, proposes the optimal weights for several portfolio types (Equally Weighted, Global Minimum Variance, etc.), shows efficient frontier
+											</li>
+											<li class="projects trading webdesign python dataviz">
+												Backtesting of the strategy with python bt library and giving performance parameters like returns and volatility, allows studying the performance in the past and studies like Bollinger Bands, Exponential Moving Average
+											</li>
+											<li class="projects trading webdesign python dataviz">
+												<a href="https://github.com/TimBstn/Portfolio-Analyzer" target="_blank"> See Project on GitHub here</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">45 Shares</span>
+										<span class="stats-text">87 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">846</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects ml marketing python" id="post-survey">
+							<div class="timeline-time">
+								<span class="date">Nov 2021 -</span>
+								<span class="time">Dec 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/survey.png" alt=""></span>
+									<span class="username">App Usage - A Survey Analysis</span>
+									<span class="pull-right text-muted">5,713 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects ml marketing python">
+												Analyzing survey data of smartphone and app usage to create insightful customer groups and targeting strategies using Principal Component Analysis (PCA) and unsupervised learning techniques in python 
+											</li>
+											<li class="projects ml marketing python">
+												<a href="https://github.com/TimBstn/Unsupervised-Learning-Survey" target="_blank"> See Project on GitHub </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">23 Shares</span>
+										<span class="stats-text">45 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">487</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects ml python" id="post-got">
+							<div class="timeline-time">
+								<span class="date">Nov 2021 -</span>
+								<span class="time">Dec 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/got.jpg" alt=""></span>
+									<span class="username">Game of Thrones - Death Prediction</span>
+									<span class="pull-right text-muted">4,124 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects ml python">
+												Feature engineering, model preparation, variable selection, and classification model development (Logistic Regression, KNN, Classification Trees, Random Forest, Gradient Boosted Models) to find AUC optimized solution to predict if Game of Thrones character dies before season final
+											</li>
+											<li class="projects ml python">
+												<a href="https://github.com/TimBstn/Game-of-Thrones-Prediction" target="_blank"> See Project on GitHub </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">34 Shares</span>
+										<span class="stats-text">34 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">576</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects dataviz trading tableau python" id="post-esg">
+							<div class="timeline-time">
+								<span class="date">Nov 2021 -</span>
+								<span class="time">Dec 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/esg.png" alt=""></span>
+									<span class="username">Climate Change - Investing Strategies</span>
+									<span class="pull-right text-muted">7,751 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects dataviz trading tableau python">
+												Backtesting trading strategies for climate change like shorting Non-ESG stocks and market timing on natural catastrophes in python and visualizing findings in Tableau
+											</li>
+											<li class="projects dataviz trading tableau python">
+												<a href="https://public.tableau.com/views/Climate_Change_Investing_Strategies/Story?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank"> See Tableau Dashboard here </a>
+											</li>
+											<li class="projects dataviz trading tableau python">
+												<a href="https://github.com/TimBstn/Climate-Change-Investing-Strategies" target="_blank"> See Project on GitHub </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">78 Shares</span>
+										<span class="stats-text">65 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">765</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post projects ml python" id="post-birth">
+							<div class="timeline-time">
+								<span class="date">Oct 2021 -</span>
+								<span class="time">Nov 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/baby.png" alt=""></span>
+									<span class="username">Birthweigth Prediction</span>
+									<span class="pull-right text-muted">3,459 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects ml python">
+												Feature engineering, model preparation, variable selection, and regression model development (OLS Regression, Lasso Regression, KNN, ARD) to find R-square optimized solution to predict birthweights of newborns 
+											</li>
+											<li class="projects ml python">
+												<a href="https://github.com/TimBstn/Regression-Analysis-birthweight" target="_blank"> See Project on GitHub </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">25 Shares</span>
+										<span class="stats-text">9 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">371</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+
+					<li class="post projects dataviz finance excel" id="post-jumia">
+							<div class="timeline-time">
+								<span class="date">Oct 2021 -</span>
+								<span class="time">Nov 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/jumia.png" alt=""></span>
+									<span class="username">Jumia - Financial Data Visualization</span>
+									<span class="pull-right text-muted">2,957 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects dataviz finance excel">
+												Visualization of financial statement and balance sheet data for Jumia (JMIA) as well as competitor analysis in Excel 
+											</li>
+											<li class="projects dataviz finance excel">
+												<a href="https://docs.google.com/spreadsheets/d/1W-EQwBlLWXhVLH-NPGAF321juZpT59zx/edit?usp=sharing&ouid=101199309673122904479&rtpof=true&sd=true" target="_blank"> See Excel Dashboard here </a>
+											</li>
+											<li class="projects dataviz finance excel">
+												<a href="https://drive.google.com/file/d/1etr3ZX2DpeNDdNgIcE7wrbAj6lETpZ6w/view?usp=sharing" target="_blank"> See Dashboard as pdf here</a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">19 Shares</span>
+										<span class="stats-text">5 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">376</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+
+					<li class="post projects python" id="post-lotr">
+							<div class="timeline-time">
+								<span class="date">Oct 2021 -</span>
+								<span class="time">Nov 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/lotr.jpg" alt=""></span>
+									<span class="username">Lord of the Rings - Text Adventure Game</span>
+									<span class="pull-right text-muted">3,498 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Boston, Massachusetts
+									</h4>
+									<p>
+										<ul>
+											<li class="projects python">
+												Development of text adventure game about Lord of the Rings 
+											</li>
+											<li class="projects python">
+												<a href="https://github.com/TimBstn/Lord-of-the-Rings-game" target="_blank"> See Game on GitHub here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">18 Shares</span>
+										<span class="stats-text">11 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">145</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post ml" id="post-stanford">
+							<div class="timeline-time">
+								<span class="date">Aug 2021 -</span>
+								<span class="time">Sep 2021 </span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/stanford.jpg" alt=""></span>
+									<span class="username">Machine Learning - Stanford Online</span>
+									<span class="pull-right text-muted">5,619 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="ml">
+												Introduction to machine learning, datamining, and statistical pattern recognition including support vector machines, neural networks, clustering, dimensionality reduction, deep learning in Octave
+											</li>
+											<li class="ml">
+												<a href="https://coursera.org/share/003df59691a22155a199e0304fd0bf2f"> See Certificate here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">34 Shares</span>
+										<span class="stats-text">12 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">318</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+                    <li class="post berenberg dataman dataviz finance vba qlik excel rprog" id="post-berenberg">
+							<div class="timeline-time">
+								<span class="date">Mar 2021 -</span>
+								<span class="time">Aug 2021</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/berenberg.png" alt=""></span>
+									<span class="username">Berenberg - Risk Controller</span>
+									<span class="pull-right text-muted">8,034 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Hamburg, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="berenberg dataman dataviz finance vba qlik excel">
+												Improved management financial decision-making ability by designing and developing dashboards visualizing balance sheet-data. Process included downloading data from QlikView, loading it into Excel with NPrinting and adjusting data and charts with VBA
+											</li>
+											<li class= "berenberg dataman vba">
+												Generated a 90% time saving by evaluating and processing data using Microsoft VBA, for example automation of updating customer banks 
+											</li>
+											<li class="berenberg dataman rprog">
+												Created faster and safer calculations displayed in management risk book by validating and actualizing risk models in R 
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">67 Shares</span>
+										<span class="stats-text">8 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">712</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+					<li class="post trading entre" id="post-bsc">
+							<div class="timeline-time">
+								<span class="date">Apr 2021 -</span>
+								<span class="time">Sep 2021</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/bbk.jfif" alt=""></span>
+									<span class="username">Berlin Stock Club</span>
+									<span class="pull-right text-muted">2,490 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="trading entre">
+												Active member in student lead club
+											</li>
+											<li class="trading entre">
+												Organizing networking events and intern trainings
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">12 Shares</span>
+										<span class="stats-text">10 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">124</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+					<li class="post projects comp latex python tu" id="post-bachelor">
+							<div class="timeline-time">
+								<span class="date">Jan 2021-</span>
+								<span class="time">May 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/bachelor.png" alt=""></span>
+									<span class="username">Bachelor Thesis - List colorability of arrangement graphs </span>
+									<span class="pull-right text-muted">6,976 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="projects comp latex python tu">
+												Algorithmic attempt of list coloring of graphs created by circles on the sphere (arrangement graphs)
+											</li>
+											<li class="projects comp latex python tu">
+												<a href="https://drive.google.com/file/d/1T3xNOnkKJm8qiZzVyBLjXF_9W1WJ4Fma/view?usp=sharing" target="_blank"> See Bachelor Thesis here </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">45 Shares</span>
+										<span class="stats-text">50 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">860</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post tu calc la comp stats python latex finance julia marketing logic" id="post-tu">
+							<div class="timeline-time">
+								<span class="date">Sep 2018 -</span>
+								<span class="time">May 2021</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/tu.png" alt=""></span>
+									<span class="username">TU Berlin - BSc. Business Mathematics</span>
+									<span class="pull-right text-muted">21,864 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="tu calc la comp stats latex python finance julia marketing logic">
+												Learning and acquiring skills from a broad spectrum of mathematic core areas and finding application-oriented deep mathematical solutions for problems in industry, business, and administration
+											</li>
+											<li class="tu logic comp">
+												Specialized in graph theory and computer orientated mathematic (major) and game theory (minor)
+											</li>
+											<li class="calc">
+												<b> Calculus I, II, III </b>
+												<p class="subpoint"> Complex mathematic topics such as metric spaces, topology, differentiation in normed vector spaces, differential equations, measure and integration theory, manifolds </p>
+											</li>
+											<li class="la">
+												<b> Linear Algebra I, II </b>
+												<p class="subpoint"> Complex mathematic topics such as functions, relations, groups, rings in n dimension, matrices, eigenvalue theory, systems of linear equations </p>
+											</li>
+											<li class="comp python">
+												<b> Computer orientated Mathematics I, II </b>
+												<p class="subpoint"> Algorithmic foundations of discrete mathematics and informatics, graphs, shortest paths, hash functions, trees, object orientated programming in python </p>
+											</li>
+											<li class="comp python">
+												<b> Numerical Mathematics </b>
+												<p class="subpoint"> Elimination and orthogonalization procedures for linear equations, nonlinear equations, interpolation with polynomials and splines, numerical integration </p>
+											</li>
+											<li class="stats">
+												<b> Probability Theory</b>
+												<p class="subpoint"> Foundations of combinatorics, probability spaces, random variables, variance, covariance, Markov chains, law of large numbers </p>
+											</li>
+											<li class="comp">
+												<b> Graph Theory</b>
+												<p class="subpoint"> Trees, paths, connections, colorings, perfect graphs, topological graph theory </p>
+											</li>
+											<li class="comp latex">
+												<b> Seminar: Graph Coloring</b>
+												<p class="subpoint"> Presentation about planar graphs and the theory of 4-coloring  </p>
+												<p class="subpoint"> <a href="https://drive.google.com/file/d/12jZKx2McmOU0wc7xBjtH1uralUFx89jO/view?usp=sharing" target="_blank"> See Presentation here </a> </p>
+											</li>
+											<li class="finance">
+												<b> External & Internal Accounting</b>
+												<p class="subpoint"> German accounting techniques using HGB rules </p>
+											</li>
+											<li class="finance">
+												<b> Investment and Finance</b>
+												<p class="subpoint"> Comparison of investment options using discounted cashflows, capital costs, financial mathematic concepts, interests, and retirement calculations </p>
+											</li>
+											<li class="julia marketing">
+												<b> Production & Marketing </b>
+												<p class="subpoint"> Analytical competencies in marketing management, product politics, price politics </p>
+												<p class="subpoint"> Designing and planning of value creation process using Julia, process and performance analysis </p>
+											</li>
+											<li class="finance">
+												<b> Organization and Innovation Management</b>
+												<p class="subpoint"> Personal management, strategy development and implementation, innovative decision processes, management of innovation processes </p>
+											</li>
+											<li class="finance logic">
+												<b> Game Theory</b>
+												<p class="subpoint"> Static games with complete and incomplete information, Nash equilibrium, dynamic games, perfect Bayesian equilibrium </p>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">69 Shares</span>
+										<span class="stats-text">58 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">997</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post pwc dataviz dataman powerbi database sql alteryx excel nlp trading" id="post-pwc">
+							<div class="timeline-time">
+								<span class="date">Mar 2020 -</span>
+								<span class="time">Feb 2021</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/pwc.jpg" alt=""></span>
+									<span class="username">PwC - Capital Markets department</span>
+									<span class="pull-right text-muted">15,747 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="pwc dataviz dataman powerbi">
+												Summarized and provided data for the PMO department such as working hours, sales and used resources in Power BI leading to a better turnaround time for the management
+											</li>
+											<li class="pwc dataman database sql alteryx excel">
+												Lead a team of five, which initiated several changes in design and implementation processes using a SQL-Database and Alteryx-Workflows resulting in reduced errors after implementation
+											</li>
+											<li class="pwc dataviz nlp trading powerbi">
+												Planned, managed and delivered solutions for analyzation and visualization of complex annual statement data of biggest German companies by market value
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">17 Shares</span>
+										<span class="stats-text">28 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">965</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+                    <li class="post bausch dataviz dataman excel marketing qlik" id="post-bausch">
+							<div class="timeline-time">
+								<span class="date">Feb 2019 -</span>
+								<span class="time">Feb 2020</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/bl.png" alt=""></span>
+									<span class="username">Bausch+Lomb - BI Strategist</span>
+									<span class="pull-right text-muted">7,985 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="bausch dataviz dataman excel">
+												Designed extensive reports with Power Query, Power Pivot and Excel and replaced old structures with an estimated time saving of more than 80% 
+											</li>
+											<li class="bausch marketing dataman excel qlik">
+												Implemented data analyzing tool in Power Query which allowed expansion to new markets using QlikView database and Power Query 
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">13 Shares</span>
+										<span class="stats-text">23 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">578</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+                    <li class="post hands" id="post-rewe">
+							<div class="timeline-time">
+								<span class="date">Sep 2018 -</span>
+								<span class="time">Jan 2019</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/rewe.png" alt=""></span>
+									<span class="username">Rewe - Stock Boy</span>
+									<span class="pull-right text-muted">4,298 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="hands">
+												Responsible for unloading delivery trucks and checking the product into the inventory system
+											</li>
+											<li class="hands">
+												Collectively arranged and organized product shelves
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">14 Shares</span>
+										<span class="stats-text">34 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">560</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+					<li class="post hu calc la sports" id="post-hu">
+							<div class="timeline-time">
+								<span class="date">Feb 2016 -</span>
+								<span class="time">Aug 2018</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/hu.png" alt=""></span>
+									<span class="username">HU Berlin - BA. Mathematics/ PE</span>
+									<span class="pull-right text-muted">5,972 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="hu">
+												Teacher's program for Mathematics and PE
+											</li>
+											<li class="la">
+												<b> Geometry </b>
+												<p class="subpoint"> Euclid geometry, projective geometry, hyperbolic geometry </p>
+											</li>
+											<li class="calc">
+												<b> Numbers Theory </b>
+												<p class="subpoint"> Algebraic foundations, residual class rings, construction of real and complex numbers  </p>
+											</li>
+											<li class="sports">
+												<b> Morphology and Function of the Human Moving System </b>
+												<p class="subpoint"> Functional understanding of the body, anatomy, physiology, biomechanics, and motoric  </p>
+											</li>
+											<li class="sports">
+												<b> Movement and Sport as social Phenomena </b>
+												<p class="subpoint"> Sport as social phenomena, history, and society   </p>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">32 Shares</span>
+										<span class="stats-text">21 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">327</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+                    <li class="post hands logic" id="post-tutor">
+							<div class="timeline-time">
+								<span class="date">Jun 2017 -</span>
+								<span class="time">Feb 2019</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/tutor.png" alt=""></span>
+									<span class="username">Mathematics & Physics Tutor</span>
+									<span class="pull-right text-muted">7,387 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="hands logic">
+												Assisted current students in mastering mathematical and physical concepts needed to receive the German High School diploma
+											</li>
+											<li class="hands logic">
+												Identified individual developmental needs and implemented customized coaching and mentoring to help students master new skills
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">56 Shares</span>
+										<span class="stats-text">40 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">756</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+				
+                    <li class="post hands">
+							<div class="timeline-time" id="post-dominos">
+								<span class="date">Sep 2015 -</span>
+								<span class="time">May 2017</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/dominos.png" alt=""></span>
+									<span class="username">Dominos - Pizza Delivery Driver</span>
+									<span class="pull-right text-muted">2,087 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="hands">
+												Loaded, transported, and delivered pizza and other customer’s food orders
+											</li>
+											<li class="hands">
+												Drove, maintained, and cleaned the company-provided delivery vehicle, properly
+											</li>
+											<li class="hands">
+												Handled inbound phone calls and placed customer orders, in a professional manner
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">8 Shares</span>
+										<span class="stats-text">12 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">369</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+                    <li class="post hands" id="post-roofer">
+							<div class="timeline-time">
+								<span class="date">Jul 2014 -</span>
+								<span class="time">Aug 2014</span>
+							</div>
+							<div class="timeline-icon">
+								  <a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/roofer.png" alt=""></span>
+									<span class="username">Burkhardt Dachdeckermeister - Roofer</span>
+									<span class="pull-right text-muted">8,729 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="hands">
+												Removed old roofing materials
+											</li>
+											<li class="hands">
+												Unloaded materials and tools from work trucks, and unrolled roofing as directed
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">45 Shares</span>
+										<span class="stats-text">90 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">840</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+                    </li>
+					
+					<li class="post logic" id="post-chess">
+							<div class="timeline-time">
+								<span class="date">2005 -</span>
+								<span class="time">current </span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/chess.png" alt=""></span>
+									<span class="username">Chess</span>
+									<span class="pull-right text-muted">2,958 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="logic">
+												Playing chess on a regular basis
+											</li>
+											<li class="logic">
+												Speed chess player with a 1700 lichess.org Rating
+											</li>
+											<li class="logic">
+												<a href="https://lichess.org/@/TimBstn", target="_blank"> Play me on LiChess </a>
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">6 Shares</span>
+										<span class="stats-text">23 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">189</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post sports" id="post-sports">
+							<div class="timeline-time">
+								<span class="date">2000 -</span>
+								<span class="time">current </span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/sports.png" alt=""></span>
+									<span class="username">Sports of all kind</span>
+									<span class="pull-right text-muted">5,969 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="sports">
+												Playing soccer on youth and senior level, i.e., second highest division for youth soccer in Germany
+											</li>
+											<li class="sports">
+												Playing beachvolleyball and tennis on a regular basis in summer
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">6 Shares</span>
+										<span class="stats-text">23 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">189</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+					
+					<li class="post afg logic" id="post-afg">
+							<div class="timeline-time">
+								<span class="date">Aug 2010 -</span>
+								<span class="time">June 2015</span>
+							</div>
+							<div class="timeline-icon">
+								<a href="javascript:;">&nbsp;</a>
+							</div>
+							<div class="timeline-body">
+								<div class="timeline-header">
+									<span class="userimage"><img src="images/afg.gif" alt=""></span>
+									<span class="username">AFG Gymnasium - Highschool Diploma</span>
+									<span class="pull-right text-muted">1,378 Views</span>
+								</div>
+								<div class="timeline-content">
+									<h4 class="template-title">
+										<i class="fa fa-map-marker text-danger fa-fw"></i>
+										Berlin, Germany
+									</h4>
+									<p>
+										<ul>
+											<li class="afg logic">
+												Highschool Diploma with final grade 1.0 (German Scale)
+											</li>
+											<li class="afg logic">
+												Specialized in Mathematics & Physics
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="timeline-likes">
+									<div class="stats-right">
+										<span class="stats-text">6 Shares</span>
+										<span class="stats-text">23 Comments</span>
+									</div>
+									<div class="stats">
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-danger"></i>
+											<i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"></i>
+										</span>
+										<span class="fa-stack fa-fw stats-icon">
+											<i class="fa fa-circle fa-stack-2x text-blue"></i>
+											<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+										</span>
+										<span class="stats-total">189</span>
+									</div>
+								</div>
+								<div class="timeline-footer">
+									<div class="inputOption">
+										<a class="like"><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i> <h4>Like</h4></a>		
+									</div>
+									<div class="inputOption">
+										<a class="comment"><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> <h4>Comment</h4></a> 
+									</div>
+									<div class="inputOption">
+										<a class="share"><i class="fa fa-share fa-fw fa-lg m-r-3"></i> <h4>Share</h4></a>	
+									</div>
+								</div>
+							</div>
+					</li>
+						
+                </ul>
+                <!-- end timeline -->
+			</div>
+			<!-- Feed Ends -->
+			
+			<!-- Widgets Starts -->		
+			<div class="widgets">
+				<div class="widgets__header">
+					<h2>Connect</h2>
+				</div>
+        
+				<div class="widgets-body">
+					<ul>
+						<li><a href="https://timlearns.com/" target="_blank"><i class="fa fa-globe" id="website" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/tim-bastian-606594203/" target="_blank"><i class="fa fa-linkedin" id="linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/TimBstn" target="_blank"><i class="fa fa-github" id="github" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCwoNk-QxFZasZiCTOlQN72A" target="_blank"><i class="fa fa-youtube" id="youtube" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/tttimbstn/" target="_blank"><i class="fa fa-instagram" id="instagram" aria-hidden="true"></i></a></li>
+						<li><a href="mailto: tim_bastian97@web.de"><i class="fa fa-at" id="email" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Widgets Ends -->
+	</body>
+	<!-- Main Body Ends -->
+</html>

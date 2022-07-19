@@ -1,3 +1,4 @@
-# Interactive CV using HTML, CSS and JavaScript
+# Interactive CV in Social Media style using HTML, CSS and JavaScript
 
-For further information check out my blogpost: (Blog post)[https://timlearns.com/create-online-cv/]
+For further information check out my blogpost: [Blog post](https://timlearns.com/create-online-cv/)
+

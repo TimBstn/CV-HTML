@@ -1,4 +1,5 @@
 # Interactive CV in Social Media style using HTML, CSS and JavaScript
+[Click through my CV here.](https://timlearns.com/cv/)
 
 <img src="cv.PNG?raw=true"/>
 
